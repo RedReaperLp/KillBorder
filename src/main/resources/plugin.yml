@@ -1,0 +1,16 @@
+name: KillBorder
+version: 1.0
+main: me.reaper.killborder.KillBorder
+api-version: 1.17
+
+commands:
+  timer:
+    description: pause/resume
+    usage: /timer resume/pause
+    permission: killborder.admin
+  size:
+    description: set start bordersize
+    usage: /size <number>
+  borderreset:
+    description: resets border and kills
+    usage: /borderreset
